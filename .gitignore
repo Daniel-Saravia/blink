@@ -1,0 +1,39 @@
+# Ignore build directory
+build/
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore SDK configuration backup files
+sdkconfig.old
+
+# Ignore dependencies lock files (if not needed in version control)
+dependencies.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore managed components build files
+managed_components/
+
+# Ignore generated configuration files
+sdkconfig
+sdkconfig.defaults
+sdkconfig.defaults.*
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*~
